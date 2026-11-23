@@ -8,13 +8,15 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
+Escribe un numero binario de 4 entradas, tenemos una salida a 7 segmentos
 
-Explain how your project works
+Es un decodificador BCD a 7 segmentos hecho con compuertas lógicas. Recibe un número binario de 4 bits en las entradas (`ui_in[0..3]`) y activa los segmentos correspondientes (`uo_out[0..6]`) para mostrar el dígito decimal en el display.
 
 ## How to test
 
-Explain how to use your project
+1. Selecciona un número binario de 4 bits usando los primeros 4 interruptores de entrada (`ui_in[0..3]`).
+2. Observa cómo el número correspondiente aparece encendido en el display de 7 segmentos conectado a `uo_out[0..6]`
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+* Display de 7 segmentos (cátodo común) conectado a los pines de salida `uo_out[0..6]` (o el display integrado en la placa demo de Tiny Tapeout).
