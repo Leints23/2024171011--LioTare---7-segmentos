@@ -9,7 +9,6 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 Escribe un numero binario de 4 entradas, tenemos una salida a 7 segmentos
-Es un decodificador BCD a 7 segmentos hecho con compuertas lógicas. Recibe un número binario de 4 bits en las entradas (`ui_in[0..3]`) y activa los segmentos correspondientes (`uo_out[0..6]`) para mostrar el dígito decimal en el display.
 
 ## How to test
 
